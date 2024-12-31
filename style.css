@@ -26,12 +26,6 @@ h1 {
     text-overflow: ellipsis;
     text-align: center;
 }
-.titulo {
-
-}
-.subtitulo {
-    
-} 
 h2 {
     color: #f6f4eb;
     font-size: 2.8em;
@@ -461,68 +455,68 @@ font-size: 2em;
     font-size: 1.2em;
 }
 #Criatividade {
-    list-style-image: url('./Skills/Softskills/criatividade.png') 
+    list-style-image: url('./src/images/Skills/Softskills/criatividade.png') 
 }
 #Adaptabilidade {
-    list-style-image: url('./Skills/Softskills/adaptabilidade.png') 
+    list-style-image: url('./src/images/Skills/Softskills/adaptabilidade.png') 
 }
 #Autonomia {
-    list-style-image: url('./Skills/Softskills/autonomia.png') 
+    list-style-image: url('./src/images/Skills/Softskills/autonomia.png') 
 }
 #Produtividade {
-    list-style-image: url('./Skills/Softskills/produtividade.png') 
+    list-style-image: url('./src/images/Skills/Softskills/produtividade.png') 
 }
 #Respeito {
-    list-style-image: url('./Skills/Softskills/respeito.png') 
+    list-style-image: url('./src/images/Skills/Softskills/respeito.png') 
 }
 #Organizacao {
-    list-style-image: url('./Skills/Softskills/organizacao.png') 
+    list-style-image: url('./src/images/Skills/Softskills/organizacao.png') 
 }
 #Proatividade {
-    list-style-image: url('./Skills/Softskills/proatividade.png') 
+    list-style-image: url('./src/images/Skills/Softskills/proatividade.png') 
 }
 #Responsabilidade {
-    list-style-image: url('./Skills/Softskills/responsabilidade.png') 
+    list-style-image: url('./src/images/Skills/Softskills/responsabilidade.png') 
 }
 #Foco {
-    list-style-image: url('./Skills/Softskills/foco.png') 
+    list-style-image: url('./src/images/Skills/Softskills/foco.png') 
 }
 
 #C {
-    list-style-image: url('./Skills/Hardskills/C.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/C.png') 
 }
 #Python {
-    list-style-image: url('./Skills/Hardskills/python.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/python.png') 
 }
 #Javascript {
-    list-style-image: url('./Skills/Hardskills/Javascript.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/Javascript.png') 
 }
 #HTML {
-    list-style-image: url('./Skills/Hardskills/html.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/html.png') 
 }
 #CSS {
-    list-style-image: url('./Skills/Hardskills/css.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/css.png') 
 }
 #React {
-    list-style-image: url('./Skills/Hardskills/react.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/react.png') 
 }
 #FrontBack {
-    list-style-image: url('./Skills/Hardskills/frontback.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/frontback.png') 
 }
 #Office {
-    list-style-image: url('./Skills/Hardskills/office.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/office.png') 
 }
 #Banco {
-    list-style-image: url('./Skills/Hardskills/banco.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/banco.png') 
 }
 #Nodemon {
-    list-style-image: url('./Skills/Hardskills/nodemon.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/nodemon.png') 
 }
 #Photoshop {
-    list-style-image: url('./Skills/Hardskills/photoshop.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/photoshop.png') 
 }
 #PowerBI {
-    list-style-image: url('./Skills/Hardskills/powerBI.png') 
+    list-style-image: url('./src/images/Skills/Hardskills/powerBI.png') 
 }
 
 @media screen and (min-width: 910px) {
