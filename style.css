@@ -47,6 +47,7 @@ main {
 }
 .ids li a {
     display: block;
+    font-weight: 500;
     text-decoration: none;
     color: #0f4761;
     padding: 0.3em;
@@ -88,6 +89,7 @@ main {
     border: none;
     color: #272a35;
     border-collapse: collapse;
+    min-width: 342px;
 }
 .tabelacontainer table tr td {
     margin: 0;
@@ -621,10 +623,10 @@ main {
     .tabelacontainer table thead tr th, .bola h3, .titskills h3, .galeria h4, .secproj h3 {
         font-size: 1.2em;
     }
-    .listacontainer ul li, .ano div h4 {
+    .listacontainer ul li, .ano div h4, .ids li a {
         font-size: 1.2em;
     }
-    .ids li a, .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
+    .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
         font-size: 0.8em;
     }
     .tela1 {
@@ -640,7 +642,7 @@ main {
         position: relative;
         display: flex;
         height: 100%;
-        width: 96vw;
+        width: 93vw;
     }
     .foto {
         object-fit: cover;
@@ -753,7 +755,7 @@ main {
         justify-content: space-around;
         margin: 10px auto;
         padding: 0;
-        width: 100vw;
+        width: 93vw;
         flex-wrap: wrap;
     }
     .tabelacontainer {
