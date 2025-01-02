@@ -468,10 +468,10 @@ main {
     .ano2 p, .titidioma h3 {
         font-size: 2.5em;
     }
-    .tabelacontainer table thead tr th, .bola h3, .ano div h4, .titskills h3, .galeria h4, .secproj h3 {
+    .ids li a, .tabelacontainer table thead tr th, .bola h3, .ano div h4, .titskills h3, .galeria h4, .secproj h3 {
         font-size: 2em;
     }
-    .ids li a, .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .listacontainer ul li, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
+  .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .listacontainer ul li, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
         font-size: 1.25em;
     }
     .conteudotimeline{
