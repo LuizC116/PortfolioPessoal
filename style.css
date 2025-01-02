@@ -16,31 +16,14 @@ html {
     display: block;
     height: 0;
 }
-h1 {
-    font-weight: 600;
-    font-size: 3em;
-    color: #0f4761;
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: center;
-}
 h2 {
     color: #f6f4eb;
-    font-size: 2.8em;
-    margin: 20px 0 20px 0;
     width: 100%;
     text-indent: 20px;
     font-weight: 500;
     border-radius: 0 50px 50px 0;
     background-color: #0f4761;
     filter: drop-shadow(0 6px 6px rgba(27, 27, 27, 0.23));
-}
-.tela1 {
-    height: 1000px;
-    display: flex;
-    flex-direction: row;
 }
 main {
     padding-top: 140px;    
@@ -53,34 +36,24 @@ main {
     background-color: #f6f4eb;
     box-shadow: 0 6px 6px rgba(27, 27, 27, 0.134);
     position: fixed;
-    width: 100%;
-    height: 160px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     z-index: 15;
 }
-.ids {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px auto;
-    padding: 0;
-    width: 60%;
-    min-width: 450px;
-}
 .ids li {
     list-style-type: none;
 }
 .ids li a {
-    font-size: 1.3em;
     display: block;
     text-decoration: none;
-    border-radius: 20px;
-    font-weight: 400;
     color: #0f4761;
     padding: 0.3em;
     text-align: center;
     width: 15vw;
+    min-width: 75px;
+    border-radius: 24px;
 }
 .ids li a:hover {
     color: #f6f4eb;
@@ -104,51 +77,41 @@ main {
 .sbtexto p {
     text-indent: 2em;
     margin: 20px 0 20px 0;
-    font-size: 1.3em;
     text-align: justify;
 }
-.info table {
+.tabelacontainer {
+    width: 100%;
+    overflow: scroll;
+}
+.tabelacontainer table {
     width: 100%;
     border: none;
     color: #272a35;
     border-collapse: collapse;
-    border-radius: 25px;
-    overflow: hidden;
 }
-.info table tr td {
+.tabelacontainer table tr td {
     margin: 0;
     padding: 20px;
     border: none;
-    font-size: 1.3em;
 }
-.info table thead tr th{
-    /*! font-weight: 600; */
-    font-size: 2em;
+.tabelacontainer table thead tr th{
     text-align: center;
     color: #f9f8f2;
     background: #0f4761;
     padding: 0.1em;
 }
-.info table tr:nth-child(odd)  { 
+.tabelacontainer table tr:nth-child(odd)  { 
     background: #f9f8f2;
 } 
-.info table tr:nth-child(even)  {
+.tabelacontainer table tr:nth-child(even)  {
     background: rgba(16, 68, 92, 0.05);
 }
-.info table tr td:nth-child(1)  {
+.tabelacontainer table tr td:nth-child(1)  {
     font-weight: 600;
 }
-.info table tr td:nth-child(2)  {
+.tabelacontainer table tr td:nth-child(2)  {
     font-weight: 400;
-}
-.containerfoto {
-    margin: 38px 0 0 38px;
-    width: 50%;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-}
-  
+}  
 .foto {
     object-fit: cover;
     height: 100%;
@@ -167,7 +130,6 @@ main {
 }
 .legenda {
     color: #f9f8f2;
-    font-size: 1.3em;
     z-index: 4;
     position: relative;
     margin: auto auto 10px auto;
@@ -201,12 +163,10 @@ main {
     background-color: #0f4761;
     border-radius: 25px 25px 25px 0;
     color: #f9f8f2;
-    font-size: 2em;
     padding: 0.2em 0.6em;
     text-align: left;
     margin: 0;
 }
-
 .ponta {
     width: 40px;
     height: 40px;
@@ -216,15 +176,12 @@ main {
 }
 .ano div h4 {
     margin: 0;
-    font-size: 2em;
     color: #0f4761;
     font-weight: 600;
 }
 .ano div h5 {
     margin: 0;
-    font-size: 1.2em;
     color: #272a35;
-    font-weight: 500;
 }
 .licursos  {
     list-style-type: none;
@@ -255,14 +212,6 @@ main {
 .link img {
     height: 1em;
 }
-.containerescola {
-    width: 100%;
-    height: 460px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    margin: 0;
-}
 .ano2 {
     display: flex;
     justify-content: flex-start;
@@ -272,19 +221,16 @@ main {
     width: 50%;
     height: 4px;
     border: none;
-    /*! background: #0f476183; */
     margin: 0;
     background: linear-gradient(to right, #0f4761, #0f476183, #0f476101);
 }
 .ano2 p {
     margin: 0 0 0 10px;
-    font-size: 2.5em;
     font-style: italic;
     color: #0f4761;
     font-weight: 600;
 }
 .licursos ul li h4 {
-    font-size: 1.5em;
     font-weight: 600;
     color: #0f4761;
     margin: 0;
@@ -292,24 +238,18 @@ main {
 .licursos ul li p {
     margin: 0;
     color: #212532;
-    font-size: 1.2em;
 }
 .titskills h3 {
-    font-size: 2em;
     text-align: center;
     background: #0f4761;
     color: #f9f8f2;
     margin: 0;
     padding: 0.1em;
 }
-.titskills ul li {
-    font-size: 1.3em;
+.listacontainer ul li {
     font-weight: 500;
 }
-.listaskills {
-    vertical-align: 1em;
-}
-.titskills ul li {
+.listacontainer ul li {
     list-style: none;
     margin: 10px 0 10px 0;
 }
@@ -330,7 +270,6 @@ main {
 }
 .titidioma h3{
     font-weight: 600;
-    font-size: 2.5em;
     padding: 6px 16px 6px 16px;
     margin: 0;
     text-align: left;
@@ -339,7 +278,6 @@ main {
     width: 100%;
 }
 .idiomas tbody tr td {
-    font-size: 1.4em;
     padding: 0.2em;
 }
 .idiomas tbody tr td:nth-child(1){
@@ -364,11 +302,15 @@ main {
 .wrap {
     flex-wrap: wrap;
 }
+.galeria {
+    background-color: #f9f8f2;
+    overflow: hidden;
+    filter: drop-shadow(0 6px 6px rgba(27, 27, 27, 0.134));
+}
 .galeria h4 {
     color: #0f4761;
     text-align: center;
     margin: 0;
-    font-size: 2em;
     font-weight: 500;
     width: 100%;
     padding: 5px;
@@ -381,15 +323,13 @@ main {
 }
 
 .secproj h3 {
-font-size: 2em;
   text-align: center;
   background: #0f4761;
   color: #f9f8f2;
   margin: 0;
   padding: 0.1em;
 }
-.galeria div a{
-    font-size: 1.4em;
+.galeria div a {
     margin: 10px;
 }
 .rodape {
@@ -397,13 +337,11 @@ font-size: 2em;
     flex-direction: column;
     box-shadow: 0 -6px 6px rgba(27, 27, 27, 0.134);
     color: #0f4761;
-
     padding: 20px;
     justify-content: center;
     align-items: center;
 }
 .rodape p {
-    font-size: 1.3em;
     font-weight: 500;
     margin: 0;
 }
@@ -413,16 +351,8 @@ font-size: 2em;
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
+    justify-content: center;
 }
-.rodape div ul li {
-    list-style: none;
-    overflow: hidden;
-    border-radius: 12px;
-    width: 48px;
-    height: 48px;
-    margin: 10px;
-}
-
 .rodape div ul li a {
     height: 100%;
     width: 100%;
@@ -438,11 +368,9 @@ font-size: 2em;
     opacity: 100%;
 }
 .rodape div ul li a img{
-    width: 48px;
-    height: 48px;
+    width: 100%;
 }
 .rodape div h3 {
-    font-size: 1.4em;
     margin: 10px;
 }
 .rodape div {
@@ -451,8 +379,9 @@ font-size: 2em;
     display: flex;
     flex-direction: column;
 }
-.licursos ul li ul li {
-    font-size: 1.2em;
+.listacontainer {
+    overflow: scroll;
+    width: 100%;
 }
 #Criatividade {
     list-style-image: url('./src/images/Skills/Softskills/criatividade.png') 
@@ -520,6 +449,29 @@ font-size: 2em;
 }
 
 @media screen and (min-width: 910px) {
+    h1 {
+        font-size: 3em;
+        font-weight: 600;
+        color: #0f4761;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2.8em;
+        margin: 20px 0 20px 0;
+    }
+    .ano2 p, .titidioma h3 {
+        font-size: 2.5em;
+    }
+    .tabelacontainer table thead tr th, .bola h3, .ano div h4, .titskills h3, .galeria h4, .secproj h3 {
+        font-size: 2em;
+    }
+    .ids li a, .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .listacontainer ul li, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
+        font-size: 1.25em;
+    }
     .conteudotimeline{
         width: calc(100% + 3px);
         margin-left: -3px;
@@ -530,7 +482,7 @@ font-size: 2em;
     }
     .info {
         height: 800px;
-        padding: 20px;
+        padding: 0 20px 20px 20px;
         overflow-y: scroll;
     }
     .pad {
@@ -553,6 +505,11 @@ font-size: 2em;
         font-style: italic;
         font-weight: 600;
     }
+    .tela1 {
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
     .secproj {
         margin: 0 auto;
         background-image: linear-gradient(rgba(16, 68, 92, 0.05), #0f476100);
@@ -560,11 +517,8 @@ font-size: 2em;
         overflow: hidden;
     }
     .galeria {
-        background-color: #f9f8f2;
-        border-radius: 2em;
-        overflow: hidden;
         margin: 24px 3em;
-        filter: drop-shadow(0 6px 6px rgba(27, 27, 27, 0.134));
+        border-radius: 24px;
     }
     .containerproj {
         width: 576px;
@@ -574,6 +528,17 @@ font-size: 2em;
         height: 324px;
         margin: 0;
         gap: 10px;
+    }
+    .containerescola {
+        width: 100%;
+        height: 460px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        margin: 0;
+    }
+    .listaskills {
+        vertical-align: 1em;
     }
     .galeria div {
         display: flex;
@@ -599,25 +564,83 @@ font-size: 2em;
         background-image: linear-gradient(rgba(16, 68, 92, 0.05), #0f476100);
         overflow: hidden;
     }
-    .titskills ul {
+    .listacontainer ul {
         padding: 0 6em 0 6em;
+    }
+    .rodape div ul li {
+        list-style: none;
+        overflow: hidden;
+        border-radius: 12px;
+        width: 48px;
+        height: 48px;
+        margin: 10px;
+    }
+    .tabelacontainer table, .titskills, .secproj {
+        border-radius: 24px;
+    }
+    .ids {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 0 10px 0;
+        padding: 0;
+        width: 100vw;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .containerfoto {
+        position: relative;
+        display: flex;
+        height: 98%;
+        width: 50%;
+        overflow: hidden;
+        margin: 58px 0 0 38px;
+    }
+    .tabelacontainer {
+        border-radius: 24px;
     }
 }
 @media screen and (max-width: 909px) {
+    h1 {
+        font-size: 2em;
+        font-weight: 600;
+        color: #0f4761;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+        padding: 0 4vw;
+    }
+    h2 {
+        font-size: 1.9em;
+        margin: 8px 0 8px 0;
+    }
+    .ano2 p, .titidioma h3 {
+        font-size: 1.5em;
+    }
+    .tabelacontainer table thead tr th, .bola h3, .titskills h3, .galeria h4, .secproj h3 {
+        font-size: 1.2em;
+    }
+    .listacontainer ul li, .ano div h4 {
+        font-size: 1.2em;
+    }
+    .ids li a, .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
+        font-size: 0.8em;
+    }
     .tela1 {
         display: flex;
-        flex-direction: column;
-        height: 190vh;
+        flex-direction: column-reverse;
+        height: 240vh;
     }
     .sbtexto {
         padding: 2vw;
     }
     .containerfoto {
+        margin: 0 auto;
         position: relative;
         display: flex;
         height: 100%;
         width: 96vw;
-        margin: 30px auto 0 auto;
     }
     .foto {
         object-fit: cover;
@@ -643,10 +666,18 @@ font-size: 2em;
         padding: 6vh 0 5px 0;
         text-align: center;
     }
+    .containerescola {
+        width: 100%;
+        height: 220px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        margin: 0;
+    }
     .ano h3 {
         margin: 0 0.3em 0;
         color: #0f47619c;
-        font-size: 4em;
+        font-size: 2em;
         line-height: 1em;
         font-style: italic;
         font-weight: 600;
@@ -662,31 +693,29 @@ font-size: 2em;
     .secproj {
         margin: 0 auto;
         background-image: linear-gradient(rgba(16, 68, 92, 0.05), #0f476100);
-        border-radius: 50px 50px 0 0;
+        border-radius: 8px;
         overflow: hidden;
     }
-    .galeria {
-        background-color: #f9f8f2;
-        border-radius: 25px;
-        overflow: hidden;
-        margin: 10px 1.5vw;
-        filter: drop-shadow(0 6px 6px rgba(27, 27, 27, 0.134));
+    .listaskills {
+        vertical-align: 1.2em;
     }
     .containerproj {
         width: 100%;
         position: relative;
         overflow: hidden;
         display: flex;
-        height: 324px;
+        height: 40vw;
         margin: 10px;
         gap: 10px;
+    }
+    .galeria {
+        border-radius: 8px;
+        margin: 24px 0.8em;
     }
     .galeria div {
         display: flex;
         justify-content: center;
-        gap: 10px;
-        padding: 10px;
-      }
+    }
     .fotoproj {
         width: 100%;
         z-index: 2;
@@ -700,16 +729,35 @@ font-size: 2em;
         display: flex;
         flex-direction: column;
     }
-    .titskills{
+    .titskills {
         width: 100%;
-        border-radius: 25px;
+        border-radius: 18px;
         background-image: linear-gradient(rgba(16, 68, 92, 0.05), #0f476100);
         overflow: hidden;
         text-align: center;
     }
-    .titskills ul {
-        padding: 0 6em 0 6em;
-        display: inline-block;
+    .listacontainer ul {
+        margin: 0;
+        padding: 0 0 0 5em;
+    }
+    .rodape div ul li {
+        list-style: none;
+        overflow: hidden;
+        border-radius: 4px;
+        width: 40px;
+        height: 40px;
+        margin: 8px;
+    }
+    .ids {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto;
+        padding: 0;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    .tabelacontainer {
+        border-radius: 18px;
     }
 }
   
