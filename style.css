@@ -632,7 +632,7 @@ main {
     .tela1 {
         display: flex;
         flex-direction: column-reverse;
-        height: 240vh;
+        height: 1450px;
     }
     .sbtexto {
         padding: 2vw;
