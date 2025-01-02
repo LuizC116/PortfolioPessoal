@@ -468,10 +468,10 @@ main {
     .ano2 p, .titidioma h3 {
         font-size: 2.5em;
     }
-    .ids li a, .tabelacontainer table thead tr th, .bola h3, .ano div h4, .titskills h3, .galeria h4, .secproj h3 {
+    .tabelacontainer table thead tr th, .bola h3, .ano div h4, .titskills h3, .galeria h4, .secproj h3 {
         font-size: 2em;
     }
-  .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .listacontainer ul li, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
+    .ids li a, .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .listacontainer ul li, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
         font-size: 1.25em;
     }
     .conteudotimeline{
@@ -623,10 +623,10 @@ main {
     .tabelacontainer table thead tr th, .bola h3, .titskills h3, .galeria h4, .secproj h3 {
         font-size: 1.2em;
     }
-    .listacontainer ul li, .ano div h4, .ids li a {
+    .listacontainer ul li, .ano div h4 {
         font-size: 1.2em;
     }
-    .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
+    .ids li a, .sbtexto p, .tabelacontainer table tr td, .legenda, .ano div h5, .licursos ul li h4, .licursos ul li p, .idiomas tbody tr td, .galeria div a, .rodape p, .rodape div h3, .licursos ul li ul li {
         font-size: 0.8em;
     }
     .tela1 {
