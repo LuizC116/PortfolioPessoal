@@ -593,7 +593,7 @@ main {
         justify-content: space-around;
         margin: 10px auto;
         padding: 0;
-        width: 950px;
+        width: 70vw;
         flex-wrap: wrap;
         gap: 10px;
     }
