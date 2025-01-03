@@ -670,7 +670,7 @@ main {
     .tela2 {
         padding: 2vh 2vw;
         background-image: linear-gradient(rgba(16, 68, 92, 0.05), #0f476100);
-        border-radius: 48px;
+        border-radius: 25px;
     }
     .ano {
         padding: 6vh 0 5px 0;
