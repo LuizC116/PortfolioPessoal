@@ -355,21 +355,21 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
-.rodape div ul li a {
+.icone1 a, .icone2 a {
     height: 100%;
     width: 100%;
     display: block;
     opacity: 60%;
     transition: 0.1s;
 }
-.rodape div ul li a:hover  {
+.icone1 a:hover, .icone2 a:hover {
     opacity: 80%;
 
 }
-.rodape div ul li a:active  {
+.icone1 a:active, .icone2 a:active {
     opacity: 100%;
 }
-.rodape div ul li a img{
+.icone1 a img, .icone2 a img{
     width: 100%;
 }
 .rodape div h3 {
@@ -386,68 +386,68 @@ main {
     width: 100%;
 }
 #Criatividade {
-    list-style-image: url('./src/images/Skills/Softskills/criatividade.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/criatividade.png') 
 }
 #Adaptabilidade {
-    list-style-image: url('./src/images/Skills/Softskills/adaptabilidade.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/adaptabilidade.png') 
 }
 #Autonomia {
-    list-style-image: url('./src/images/Skills/Softskills/autonomia.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/autonomia.png') 
 }
 #Produtividade {
-    list-style-image: url('./src/images/Skills/Softskills/produtividade.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/produtividade.png') 
 }
 #Respeito {
-    list-style-image: url('./src/images/Skills/Softskills/respeito.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/respeito.png') 
 }
 #Organizacao {
-    list-style-image: url('./src/images/Skills/Softskills/organizacao.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/organizacao.png') 
 }
 #Proatividade {
-    list-style-image: url('./src/images/Skills/Softskills/proatividade.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/proatividade.png') 
 }
 #Responsabilidade {
-    list-style-image: url('./src/images/Skills/Softskills/responsabilidade.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/responsabilidade.png') 
 }
 #Foco {
-    list-style-image: url('./src/images/Skills/Softskills/foco.png') 
+    list-style-image: url('/src/assets/Skills/Softskills/foco.png') 
 }
 
 #C {
-    list-style-image: url('./src/images/Skills/Hardskills/C.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/C.png') 
 }
 #Python {
-    list-style-image: url('./src/images/Skills/Hardskills/python.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/python.png') 
 }
 #Javascript {
-    list-style-image: url('./src/images/Skills/Hardskills/Javascript.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/Javascript.png') 
 }
 #HTML {
-    list-style-image: url('./src/images/Skills/Hardskills/html.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/html.png') 
 }
 #CSS {
-    list-style-image: url('./src/images/Skills/Hardskills/css.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/css.png') 
 }
 #React {
-    list-style-image: url('./src/images/Skills/Hardskills/react.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/react.png') 
 }
 #FrontBack {
-    list-style-image: url('./src/images/Skills/Hardskills/frontback.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/frontback.png') 
 }
 #Office {
-    list-style-image: url('./src/images/Skills/Hardskills/office.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/office.png') 
 }
 #Banco {
-    list-style-image: url('./src/images/Skills/Hardskills/banco.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/banco.png') 
 }
 #Nodemon {
-    list-style-image: url('./src/images/Skills/Hardskills/nodemon.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/nodemon.png') 
 }
 #Photoshop {
-    list-style-image: url('./src/images/Skills/Hardskills/photoshop.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/photoshop.png') 
 }
 #PowerBI {
-    list-style-image: url('./src/images/Skills/Hardskills/powerBI.png') 
+    list-style-image: url('/src/assets/Skills/Hardskills/powerBI.png') 
 }
 
 @media screen and (min-width: 910px) {
@@ -569,11 +569,19 @@ main {
     .listacontainer ul {
         padding: 0 6em 0 6em;
     }
-    .rodape div ul li {
+    .icone1 {
         list-style: none;
         overflow: hidden;
         border-radius: 12px;
         width: 48px;
+        height: 48px;
+        margin: 10px;
+    }
+    .icone2 {
+        list-style: none;
+        overflow: hidden;
+        border-radius: 12px;
+        width: 114px;
         height: 48px;
         margin: 10px;
     }
@@ -583,9 +591,9 @@ main {
     .ids {
         display: flex;
         justify-content: space-around;
-        margin: 0 0 10px 0;
+        margin: 10px auto;
         padding: 0;
-        width: 100vw;
+        width: 950px;
         flex-wrap: wrap;
         gap: 10px;
     }
@@ -742,11 +750,19 @@ main {
         margin: 0;
         padding: 0 0 0 5em;
     }
-    .rodape div ul li {
+    .icone1 {
         list-style: none;
         overflow: hidden;
         border-radius: 4px;
         width: 40px;
+        height: 40px;
+        margin: 8px;
+    }
+    .icone2 {
+        list-style: none;
+        overflow: hidden;
+        border-radius: 4px;
+        width: 95px;
         height: 40px;
         margin: 8px;
     }
