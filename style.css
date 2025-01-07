@@ -412,6 +412,9 @@ main {
 #Foco {
     list-style-image: url('/src/assets/Skills/Softskills/foco.png') 
 }
+#Decisao {
+    list-style-image: url('/src/assets/Skills/Softskills/decisao.png')  
+}
 
 #C {
     list-style-image: url('/src/assets/Skills/Hardskills/C.png') 
@@ -448,6 +451,12 @@ main {
 }
 #PowerBI {
     list-style-image: url('/src/assets/Skills/Hardskills/powerBI.png') 
+}
+#R {
+    list-style-image: url('/src/assets/Skills/Hardskills/r.png')  
+}
+#Linux {
+    list-style-image: url('/src/assets/Skills/Hardskills/linux.png')  
 }
 
 @media screen and (min-width: 910px) {
