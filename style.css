@@ -458,7 +458,12 @@ main {
 #Linux {
     list-style-image: url('/src/assets/Skills/Hardskills/linux.png')  
 }
-
+#Java {
+    list-style-image: url('/src/assets/Skills/Hardskills/java.png')  
+}
+#Botcity {
+    list-style-image: url('/src/assets/Skills/Hardskills/botcity.png')  
+}
 @media screen and (min-width: 910px) {
     h1 {
         font-size: 3em;
